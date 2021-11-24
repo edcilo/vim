@@ -4,8 +4,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 nnoremap <C-s> :w<CR>
-nnoremap <C-w> :q<CR>
-nnoremap <C-q> :q!<CR>
+nnoremap <C-w> :Sayonara!<CR>
+nnoremap <C-q> :Sayonara<CR>
 
 vnoremap < <gv
 vnoremap > >gv

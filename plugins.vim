@@ -41,6 +41,10 @@ Plug 'https://github.com/jessarcher/vim-heritage'
 Plug 'https://github.com/tommcdo/vim-lion'
 Plug 'https://github.com/sickill/vim-pasta'
 Plug 'https://github.com/unblevable/quick-scope'
+Plug 'https://github.com/mhinz/vim-sayonara', { 'on': 'Sayonara' }
+Plug 'https://github.com/psliwka/vim-smoothie'
+Plug 'https://github.com/mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'https://github.com/nelstrom/vim-visual-star-search'
 
 " Git
 Plug 'https://github.com/tpope/vim-fugitive'
