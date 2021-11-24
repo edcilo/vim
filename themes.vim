@@ -12,14 +12,13 @@ if exists( "&termguicolors" ) && exists( "&winblend" )
   autocmd VimEnter * NERDTree | wincmd p
   autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-
   " Theme
   let g:neosolarized_termtrans=1
   let g:neosolarized_contrast=1
   let g:neosolarized_termBoldAsBright=1
   runtime ./colors/NeoSolarized.vim
-  " colorscheme NeoSolarized
+  colorscheme NeoSolarized
   " colorscheme atom
-  colorscheme OceanicNext 
+  " colorscheme OceanicNext 
 endif
 

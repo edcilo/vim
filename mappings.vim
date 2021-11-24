@@ -4,7 +4,11 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 nnoremap <C-s> :w<CR>
-nnoremap <C-q> :q<CR>
+nnoremap <C-w> :q<CR>
+nnoremap <C-q> :q!<CR>
+
+vnoremap < <gv
+vnoremap > >gv
 
 " nnoremap <M-j> :resize -2<CR>
 " nnoremap <M-k> :resize +2<CR>
@@ -24,3 +28,5 @@ nnoremap <C-f> :Ag<CR>
 
 nnoremap <C-m> :TagbarToggle<CR>
 
+" nnoremap <C-k> :FloatermNew<CR> 
+nnoremap <C-k> :FloatermNew --autoclose=2<CR>
