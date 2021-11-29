@@ -29,4 +29,4 @@ nnoremap <C-f> :Ag<CR>
 nnoremap <C-m> :TagbarToggle<CR>
 
 " nnoremap <C-k> :FloatermNew<CR> 
-nnoremap <C-k> :FloatermNew --autoclose=2<CR>
+nnoremap <C-t> :FloatermNew --autoclose=2<CR>
