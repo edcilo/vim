@@ -54,3 +54,8 @@ endif
 
 au! BufWritePost $MYVIMRC source %  " auto source when writting to init.vim
 
+" add folding code for python
+:set foldmethod=indent
+nnoremap <space> za
+vnoremap <space> zf
+

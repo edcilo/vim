@@ -45,6 +45,7 @@ Plug 'https://github.com/mhinz/vim-sayonara', { 'on': 'Sayonara' }
 Plug 'https://github.com/psliwka/vim-smoothie'
 Plug 'https://github.com/mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'https://github.com/nelstrom/vim-visual-star-search'
+Plug 'https://github.com/liuchengxu/vim-which-key'
 
 " Git
 Plug 'https://github.com/tpope/vim-fugitive'

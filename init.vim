@@ -8,6 +8,7 @@ source $HOME/.config/nvim/airlines.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
+source $HOME/.config/nvim/plug-config/which-key.vim
 
 
 " Commands

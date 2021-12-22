@@ -7,8 +7,14 @@ nnoremap <C-s> :w<CR>
 nnoremap <C-w> :Sayonara!<CR>
 nnoremap <C-q> :Sayonara<CR>
 
-vnoremap < <gv
-vnoremap > >gv
+" seleccionar todo
+nnoremap <C-a> gg<S-v>G
+
+" Tabs
+nnoremap <S-Tab> :tabprev<Return>
+nnoremap <Tab> :tabnext<Return>
+" vnoremap < <gv
+" vnoremap > >gv
 
 " nnoremap <M-j> :resize -2<CR>
 " nnoremap <M-k> :resize +2<CR>
