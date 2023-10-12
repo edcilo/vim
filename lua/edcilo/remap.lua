@@ -6,12 +6,16 @@ keymap.set("n", "<leader>s", ":w<cr>", { desc = "write buffer" })
 keymap.set("n", "<leader>w", ":q<cr>", { desc = "quit buffer" })
 keymap.set("n", "<leader>q", ":q!<cr>", { desc = "forced quit buffer" })
 
-keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "open file explorer"})
+keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "open file explorer" })
 keymap.set("n", "<leader>l", ":nohl<CR>", { desc = "clear search highlights" })
 
 keymap.set("n", "<leader>a", "gg<S-v>G", { desc = "select all" })
-keymap.set({"n", "x"}, "<leader>c", '"+y', { desc = "copy to system clipboard" })
-keymap.set({"n", "x"}, "<leader>v", '"+p', { desc = "paste from system clipboard" })
+keymap.set({ "n", "x" }, "<leader>c", '"+y', { desc = "copy to system clipboard" })
+keymap.set({ "n", "x" }, "<leader>v", '"+p', { desc = "paste from system clipboard" })
+
+keymap.set("n", "<leader>f", function()
+    vim.lsp.buf.format()
+end, { desc = "format buffer" })
 
 keymap.set("n", "dw", 'vb"_d', { desc = "delete a word backward" })
 
@@ -22,6 +26,9 @@ keymap.set("n", "tt", "gt>>", { desc = "insert tabline" })
 keymap.set("n", "TT", "gT<<", { desc = "remove tabline" })
 keymap.set("v", "tt", ">gv", { desc = "insert tabline" })
 keymap.set("v", "TT", "<gv", { desc = "remove tabline" })
+
+keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "move line down" })
+keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "move line up" })
 
 keymap.set("n", "ss", ":split<Return><C-w>w", { desc = "horizontal split window" })
 keymap.set("n", "sv", ":vsplit<Return><C-w>w", { desc = "vertical split window" })
