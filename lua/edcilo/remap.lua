@@ -3,8 +3,9 @@ local keymap = vim.keymap
 vim.g.mapleader = " "
 
 keymap.set("n", "<leader>s", ":w<cr>", { desc = "write buffer" })
-keymap.set("n", "<leader>w", ":q<cr>", { desc = "quit buffer" })
-keymap.set("n", "<leader>q", ":q!<cr>", { desc = "forced quit buffer" })
+keymap.set("n", "<leader>w", ":bd<cr>", { desc = "quit buffer" })
+keymap.set("n", "<leader>q", ":q<cr>", { desc = "quit of vim" })
+keymap.set("n", "<leader>Q", ":qa!<cr>", { desc = "quit of vim" })
 
 keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "open file explorer" })
 keymap.set("n", "<leader>l", ":nohl<CR>", { desc = "clear search highlights" })
@@ -12,10 +13,6 @@ keymap.set("n", "<leader>l", ":nohl<CR>", { desc = "clear search highlights" })
 keymap.set("n", "<leader>a", "gg<S-v>G", { desc = "select all" })
 keymap.set({ "n", "x" }, "<leader>c", '"+y', { desc = "copy to system clipboard" })
 keymap.set({ "n", "x" }, "<leader>v", '"+p', { desc = "paste from system clipboard" })
-
-keymap.set("n", "<leader>f", function()
-    vim.lsp.buf.format()
-end, { desc = "format buffer" })
 
 keymap.set("n", "dw", 'vb"_d', { desc = "delete a word backward" })
 
