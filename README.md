@@ -94,5 +94,31 @@ replace text for the first result in a line     :s/<old>/<new> + enter
 replace all results in a same line              :s/<old>/<new>/g + enter
 replace in a range of lines                     :<n>,<n>s/<old>/<new>/g + enter
 replace with a prompt                           :%s/<old>/<new>/gc + enter + y
+
+--- BUFFERLINE
+next buffer tab                                                     <leader><Tab>
+previous buffer tab                                                 <shift><Tab>
+
+--- NVIM COMMENT
+comment current line or selected text                               <leader>/
+
+--- LSP
+confirm completion                                                  enter
+trigger completion menu                                             Ctrl + <space>
+scroll up completion documentation                                  Ctrl + u
+scroll down completion documentation                                Ctrl + d
+
+format buffer                                                       <leader>f
+
+--- NEOGIT
+open neogit buffer                                                  <leader>gs
+
+--- TELESCOPE
+find files                                                          <leader>ff
+live grep                                                           <leader>fg
+buffers                                                             <leader>fb
+
+--- TOGGLETERM
+open terminal                                                       Ctrl + \
 ```
 
