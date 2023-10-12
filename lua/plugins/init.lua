@@ -18,10 +18,23 @@ return {
     {"github/copilot.vim"},
     {"Pocco81/auto-save.nvim"},
     {"akinsho/toggleterm.nvim"},
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+    },
 
     -- version control
-    {"tpope/vim-fugitive"},
     {"lewis6991/gitsigns.nvim"},
+    {
+        "NeogitOrg/neogit",
+        dependencies = {
+            "nvim-lua/plenary.nvim",         -- required
+            "nvim-telescope/telescope.nvim", -- optional
+            "sindrets/diffview.nvim",        -- optional
+            "ibhagwan/fzf-lua",              -- optional
+        },
+        config = true
+    },
 
     -- appearence
     {"nvim-tree/nvim-web-devicons"},
