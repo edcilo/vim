@@ -36,3 +36,8 @@ vim.opt.termguicolors = true
 vim.opt.colorcolumn = { 80 }
 
 vim.opt.shell = "zsh"
+
+-- nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+

@@ -17,6 +17,7 @@ return {
     { "hrsh7th/nvim-cmp" },
     { "L3MON4D3/LuaSnip" },
 
+    { "nvim-tree/nvim-tree.lua" },
     { "terrortylor/nvim-comment" },
     { "editorconfig/editorconfig-vim" },
     { "github/copilot.vim" },
