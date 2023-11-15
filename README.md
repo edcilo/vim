@@ -36,7 +36,7 @@ right                                           l
 down                                            j
 left                                            h
 
-open file explorer                              :Ex                 <leader>pv
+toggle file explorer                              :Ex                 <leader>pv
 
 go to start of the file                         gg
 go to end of the file                           G
