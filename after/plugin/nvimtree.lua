@@ -15,13 +15,16 @@ tree.setup({
     },
     filters = {
         dotfiles = false,
-        git_ignored = false,
+        git_ignored = true,
         custom = {
             ".git",
-            ".vscode",
-            "node_modules",
         },
-        exclude = {},
+        exclude = {
+            ".env*",
+            ".gitignore",
+        },
     }
 })
+
+vim.keymap.set("n", "<leader>pv", ":NvimTreeToggle<CR>")
 

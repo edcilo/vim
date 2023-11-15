@@ -36,7 +36,7 @@ right                                           l
 down                                            j
 left                                            h
 
-toggle file explorer                              :Ex                 <leader>pv
+toggle file explorer                            :Ex                 <leader>pv
 
 go to start of the file                         gg
 go to end of the file                           G
@@ -136,6 +136,7 @@ rename full path                                                    u
 expand all                                                          E
 collapse all                                                        W
 parent directory                                                    P
+open path in finder                                                 s
 ```
 
 ## Commands
