@@ -120,5 +120,26 @@ buffers                                                             <leader>fb
 
 --- TOGGLETERM
 open terminal                                                       Ctrl + \
+
+--- NVIM TREE
+close nvim tree                                                     q
+refresh nvim tree                                                   R
+search                                                              S
+get info                                                            Ctrl + k
+close directory                                                     Backspace
+open directory                                                      Enter
+create a new file                                                   a
+delete file                                                         d
+rename                                                              r
+open file                                                           o
+rename full path                                                    u
+expand all                                                          E
+collapse all                                                        W
+parent directory                                                    P
 ```
 
+## Commands
+
+```txt
+Update packages                                                    :Lazy update
+```
