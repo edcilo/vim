@@ -7,7 +7,6 @@ keymap.set("n", "<leader>w", ":bd<cr>", { desc = "quit buffer" })
 keymap.set("n", "<leader>q", ":q<cr>", { desc = "quit of vim" })
 keymap.set("n", "<leader>Q", ":qa!<cr>", { desc = "quit of vim" })
 
-keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "open file explorer" })
 keymap.set("n", "<leader>l", ":nohl<CR>", { desc = "clear search highlights" })
 
 keymap.set("n", "<leader>a", "gg<S-v>G", { desc = "select all" })
