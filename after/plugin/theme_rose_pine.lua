@@ -4,4 +4,4 @@ theme.setup({
     variant = "main", -- main|moon|dawn|auto
 })
 
-vim.cmd("colorscheme rose-pine")
+-- vim.cmd("colorscheme rose-pine")

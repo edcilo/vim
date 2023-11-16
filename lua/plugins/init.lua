@@ -58,4 +58,5 @@ return {
 
     -- themes
     { "rose-pine/neovim", name = "rose-pine" },
+    { "craftzdog/solarized-osaka.nvim", lazy = true, priority = 1000 }
 }

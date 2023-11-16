@@ -1,5 +1,12 @@
 # edcilo nvim
 
+## dependencies
+
+Install with brew
+
+- ripgrep
+- fd
+
 ## maps
 
 ```txt
